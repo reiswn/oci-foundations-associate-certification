@@ -3,8 +3,8 @@
 My personal notes about this certification - OCI Fundation Certification Exam
 
 # Links
-- Oracle Cloud Overview https://learn.oracle.com/ols/learning-path/oracle-cloud-overview/37192/89873
-- Course : Oracle Cloud Infrastructure Foundations https://learn.oracle.com/ols/course/oracle-cloud-infrastructure-foundations/35644/96915/142023
+- [Oracle Cloud Overview](https://learn.oracle.com/ols/learning-path/oracle-cloud-overview/37192/89873)
+- Course : [Oracle Cloud Infrastructure Foundations](https://learn.oracle.com/ols/course/oracle-cloud-infrastructure-foundations/35644/96915/142023)
 
 # Introduction (see [fundamentals-of-oci](https://learn.oracle.com/ols/course/fundamentals-of-oci/37192/89889/130850))
  - **Compute Services**
