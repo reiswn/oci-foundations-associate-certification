@@ -2,6 +2,9 @@
 # oci-foundations-2021-associate-certification
 My personal notes about this certification - OCI Fundation Certification Exam
 
+# Links
+- Oracle Cloud Overview https://learn.oracle.com/ols/learning-path/oracle-cloud-overview/37192/89873
+- Course : Oracle Cloud Infrastructure Foundations https://learn.oracle.com/ols/course/oracle-cloud-infrastructure-foundations/35644/96915/142023
 
 # Introduction (see [fundamentals-of-oci](https://learn.oracle.com/ols/course/fundamentals-of-oci/37192/89889/130850))
  - **Compute Services**
@@ -117,6 +120,30 @@ My personal notes about this certification - OCI Fundation Certification Exam
  	- Autonomous - Dedicated  --|--> Auto { back up ; patching ; upgrading ; tuning }
  - **Security**
 ---
+- Gen 2 Exadata Cloud at Customer
+	- DaaS in your data center
+	- Public cloud hardware, software, and APIs
+	- Public cloud operational model
+	- Public cloud financial model
+	- Seamlessly interoperates with Oracle Public Cloud
+- Oracle Roving Edge infrastructure
+	- Cloud integrated service that extends the power of cloud and accelerates deployment of cloud workloads outside the data center
+	- Oracle REDs - Roving Edge Devices deliver cloud and storage at the edge of networks and in disconnected locations
+- OCI Azure Interconnect
+- Oracle FastConnect
+	- Enables connect directly to their OCI VCN via dedicated, private and high-bandwidth connections
+	- Based on data, can choose port speed and pay a consistent, low price each month
+	- Dedicated connectivity
+	- Dedicated, reliable, and consistent networking experience is required
+	- Good for latency-sensitive enterprise applications, sensitive data that cannot traverse the Internet
+
+---
+- PAAS
+	- OCI Visual Builder Studio
+		- Extend Oracle Cloud Applications
+	- OCI Analytics Cloud
+		- Uses embedded machine learning and artificial intelligence to analyze data across the organizations
+---
  - Event Driven Architecture
  - Developer Services
  - Observability & Management
@@ -130,6 +157,12 @@ My personal notes about this certification - OCI Fundation Certification Exam
 - Scaling Horizontal
 - Scaling Vertical
 - SAAS
+	- ERP/EPM: Enterprise Resource Management / Enterprise Performance Management
+		- ERP: manages the day-to-day businesses for accounting, procurement, project management, risk management and compliance, and supply chain management
+		- EPM: helps you model and plan across finance, HRM, supply chain, and sales, and streamline the financial close process while driving better decisions.
+	- SCM: Supply Chain management
+	- HCM: Human Capital Management
+	- CX: Customer Experience
 - IAAS
 - PAAS
 - CAPEX vs OPEX
@@ -160,6 +193,7 @@ My personal notes about this certification - OCI Fundation Certification Exam
 - RAC
 - MySQL Cloud Service
 - NoSQL Cloud Service
+	- Provides on demand throughput and storage based provisioning that supports document, columnar, and key value data models all with the flexible transaction guarantee.
 - Autonomous Json DB
 # Billing
 -
