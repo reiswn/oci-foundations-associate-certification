@@ -102,9 +102,11 @@ My personal notes about this certification - OCI Fundation Certification Exam
  			- Are written in human-readable format
  			- Policy Attachment: policies can be attached to a compartment or the tenancy. Where you attach it controls who can then modify it or delete it.
  			- Example
+ 			```
  				- Allow group NetworkAdmins to manage virtual-network-family in tenancy
  				- Allow group <group_name>  to <verb> <resource-type>        in tenancy | in compartment <compartment_name> [where <conditions>]
 				- Allow <subject> to <verb> <resource_type> in <location> where <conditions>
+			```
  - **Databases Services**
  	- <= Fast Provisioning ; Fast Performance ; Managed high Avalability ; Managed Exadata infrastructure ; Self-{driving | securing | repairing} =>
  	- VM DB Systems                                 
