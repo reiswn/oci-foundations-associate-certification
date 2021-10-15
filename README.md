@@ -214,16 +214,62 @@ My personal notes about this certification - OCI Fundation Certification Exam
 # Security for Cloud
 - Cloud Guard
 - Vault
+	- *Oracle Cloud Infrastructure **Vault*** is a managed service that lets you centrally manage the *encryption keys* that protect your data and the *secret credentials* that you use to securely access resources.
+	- **JWA is not** a supported algorithm for OCI Vault service.
+- Multi-factor Authentication
+	- Multi-factor authentication is a method of authentication that requires the use of more than one factor to verify a user’s identity.
+- Web Application Firewall
+	- WAF can protect any internet facing endpoint, providing consistent rule enforcement across a customer's applications.
+- Security Zone
+	-  A security zone is associated with a compartment and a security zone recipe.
 
-# Databases *
+# Databases
 - VM DB Systems
 - Bare Metal
 - RAC
+	- Two-node *Oracle RAC DB systems* require **Oracle Enterprise Edition - Extreme Performance**.
 - MySQL Cloud Service
 - NoSQL Cloud Service
 	- Provides on demand throughput and storage based provisioning that supports document, columnar, and key value data models all with the flexible transaction guarantee.
+	- **NoSQL Database** gives a predictable *single-digit*, millisecond *latency* with *high performance* workloads.
 - Autonomous Json DB
+- Autonomous Database
+	- **Dedicated deployment** is a deployment choice that enables you to provision **autonomous databases** into their own dedicated cloud infrastructure.
+	- An **Autonomous Database** handles the creating of the database along with **backups, patching, upgrading, and tuning** of the database.
+	- **ATP** is a workload *type* on the **Autonomous Database** and **not** a *DB system*
 
+# App Dev
+- Terraform
+	- Using Terraform, **Resource Manager** helps you *install, configure, and manage resources* through the *"infrastructure-as-code"* model.
+- OCI Container Registry (OCIR)
+	- A single registry can only contain either private or public Docker repositories
+- Oracle Functions
+	- The serverless and elastic architecture of **Oracle Functions** means there's no infrastructure administration or software administration for you to perform.
+- OCI Container Engine for Kubernetes
+	- is a fully-managed, scalable, and highly available service that you can use to deploy your containerized applications to the cloud.
+- OCI API Gateway service
+	- You can access the API Gateway service to define API gateways and API deployments using the Console and the REST API.
+	- Doesnt provides a deployment plataform for your API implementations
+
+# Observability and Management
+- OCI Loggin : Can be used to enable, manage and search critical diagnostic information that describes how resources are performing.
+	- Audit Logs
+	- Custom Logs
+	- Service logs
+- OCI Monitoring : enables you to actively and passively **monitor your cloud** resources using the Metrics and Alarms features.
+	- Alarms : use metrics for monitoring and consists of a trigger action and notification method.
+	- Namespace
+	- Triggers
+	- Queries
+- OCI Logging Analytics
+
+# Analytics and AI
+- Data Integration : enables the **ETL** (Extract-Transform-Load) developers to develop, build, and test data integration solutions.
+- Data Flow : is used to easily create, share, run, and view the output of Apache **Spark** applications.
+- Data Catalog : can harvest technical **metadata** from a wide range of supported data sources that are accessible using public or private IPs.
+	- Find the information you need by exploring the data assets, browsing the data catalog, or using the quick search bar.
+- Data Science
+	- Accelerated Data Science SDK : Oracle Accelerated Data Science (ADS) SDK is a Python library that is included as part of the OCI Data Science service.
 # Billing
 -
 #
