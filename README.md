@@ -270,7 +270,33 @@ My personal notes about this certification - OCI Fundation Certification Exam
 	- Find the information you need by exploring the data assets, browsing the data catalog, or using the quick search bar.
 - Data Science
 	- Accelerated Data Science SDK : Oracle Accelerated Data Science (ADS) SDK is a Python library that is included as part of the OCI Data Science service.
+# Hybrid
+- Oracle Dedicated Region Cloud@Customer
+	- Dedicated regions provide extremely low latency.
+	- Dedicated regions are public regions assigned to a single organization.
+- Oracle Cloud VMware Solution
+	- uses **Bare Metal** compute shape.
+	- is based on VMware ESXi and related technologies. It **doesn’t** support **Hyper-V**.
+- Private Region?
+- Customer Region?
 # Billing
--
+- Pricing depends on types of **resources** used.
+- Oracle offers these billing models: 
+	- Pay as you go
+	- Monthly universal credits
+	- Annual universal credits
+	- BYOL
+- About Traffic 
+	- Ingress is free while egress rates are based on geography
+	- Egress is charged to and from teh internet
+- OCI Budgets
+	- Budgets are set on cost-tracking **tags** or on **compartments**
+# SLA and Support
+- Oracle Support
+	- To log a service request, you need the customer support identifier (CSI), tenancy OCID, and Resource OCID.
+	- Support Ticket
+		- Paid Account
+- SLA
+	- 
 #
 -
