@@ -82,6 +82,7 @@ My personal notes about this certification - OCI Fundation Certification Exam
 			- Provisioned bandwidth: Flexible Load Balancer
 			- Single LB for TCP (layer 4) and HTTP (layer 7) traffic
  - **Identity and Access Management**
+ 	- OCID: Oracle Cloud Identity
  	- OCI IAM
  		- Identities (Who requests)
  			- Groups
@@ -95,7 +96,7 @@ My personal notes about this certification - OCI Fundation Certification Exam
  		- USERS and GROUPS (Users --> Groups --> at least one policy with permission to tenancy or a compartment
  		- INSTANCE (API calls)
  	- Authentication: deals with user identity
- 		- OCI IAM service auth a Principal by
+ 		- OCI IAM service auth a Principal by:
  			- User name, Password
  			- API Signing Key
  			- Auth Tokens
@@ -169,20 +170,47 @@ My personal notes about this certification - OCI Fundation Certification Exam
 
 # Infrastructure
 - Region: Location ; Data Residency & Compliance ; Service Availability
+	- A region is a localized geographic area
 - Domains
 - Compartment
 - Available Domains (AD): Physical infrastructures NOT shared; Isolated, fault tolerant
+	- Every AD has three FD for high availability.
 - Fault Domains (FD): 3 FD / AD ; Logical data center within an AD ; Each FD does not share unique points of hardware failure with the others
+	- Fault domains provide anti-affinity: they let you distribute your instances so that the instances are not on the same physical hardware within a single availability domain. A hardware failure that affects one fault domain does not affect instances in other fault domains.
 
 # Storage
 - Local NVME
 - Block Volume
+	- In order to provision a volume to an instance, you need to attach it to the instance.
 - File Storage
+	- File System organizes files in a hierarchy of named directories.
 - Object Storage
+	- Object Lifecycle management manages object storage versioning.
 - Archive
+	- The Archive Storage service is ideal for storing data that is seldom accessed, but requires long retention periods.
+- OCI doesn’t have a managed NetApp storage service.
 
 # Cloud Network
--
+- VCN : Virtual Cloud Network
+	- Each VCN comes with a **default** set of **route tables**, **security lists** and **DHCP options** with initial values that you can change.
+- Subnets
+	- You can designate a subnet to exist either in a single availability domain or across an entire region 
+- Load Balancer
+	- The Load Balancing service provides automated traffic distribution from one entry point to multiple servers reachable from your VCN.
+- Gateways
+	- Service Gateway
+	- NAT Gateway
+		- A NAT gateway gives cloud resources without public IP addresses access to the internet without exposing those resources to incoming internet connections.
+	- DRG (Dynamic Routing gateway)
+	- Internet Gateway
+		- An internet gateway allows both inbound and outbound traffic.
+# Compute Services
+- Oracle Cloud Infrastructure offers both Bare Metal and virtual machine **instances**.
+- You can run **containers** in OCI, but the service **doesn’t offer** a managed container instance.
+- Once allocated, the **primary private IP** for the instance is not editable.
+- **OS management** can be used for automating patches, simplifying package management and managing CVE (Common Vulnerability Exposure)
+- **Autoscaling** automatically scales up or down to meet the capacity requirements.
+
 # Security for Cloud
 - Cloud Guard
 - Vault
@@ -195,6 +223,7 @@ My personal notes about this certification - OCI Fundation Certification Exam
 - NoSQL Cloud Service
 	- Provides on demand throughput and storage based provisioning that supports document, columnar, and key value data models all with the flexible transaction guarantee.
 - Autonomous Json DB
+
 # Billing
 -
 #
