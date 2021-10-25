@@ -3,6 +3,7 @@
 My personal notes about this certification - OCI Fundation Certification Exam
 
 # Links
+- [Become an OCI Foundations Associate](https://learn.oracle.com/ols/learning-path/become-an-oci-foundation-associate/35644/98057)
 - [Oracle Cloud Overview](https://learn.oracle.com/ols/learning-path/oracle-cloud-overview/37192/89873)
 - Course : [Oracle Cloud Infrastructure Foundations](https://learn.oracle.com/ols/course/oracle-cloud-infrastructure-foundations/35644/96915/142023)
 
